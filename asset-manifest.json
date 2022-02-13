@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Reto1Sprint2-AcademiaGeek/static/css/main.328ddf36.css",
+    "main.js": "/Reto1Sprint2-AcademiaGeek/static/js/main.7ee35191.js",
+    "index.html": "/Reto1Sprint2-AcademiaGeek/index.html",
+    "main.328ddf36.css.map": "/Reto1Sprint2-AcademiaGeek/static/css/main.328ddf36.css.map",
+    "main.7ee35191.js.map": "/Reto1Sprint2-AcademiaGeek/static/js/main.7ee35191.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.328ddf36.css",
+    "static/js/main.7ee35191.js"
+  ]
+}
