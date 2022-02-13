@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { useEffect, useState } from 'react';
 import { DevText, DisGrid, ImgCard, Item1, Item2, NameText, Point, PtMted } from './StyledComponent';
+import '../src/styles/style.css'
 
 function App() {
 
@@ -62,31 +63,33 @@ function App() {
           return(
             console.log(usuario.others),
 
+          <>
+          
             <DisGrid key={usuario.id}>
-              <div>
-                  <ImgCard className='imgCard' src={usuario.image}/> 
-              </div>
+                <div>
+                  <ImgCard className='imgCard' src={usuario.image} />
+                </div>
 
-              <Item1>
+                <Item1>
                   <div>
-                      <NameText>{usuario.name}</NameText> 
-                      <DevText>{usuario.dev}</DevText>
-                      <PtMted>{usuario.day}</PtMted><Point>.</Point><PtMted>{usuario.time}</PtMted><Point>.</Point><PtMted>{usuario.site}</PtMted>
+                    <NameText>{usuario.name}</NameText>
+                    <DevText>{usuario.dev}</DevText>
+                    <PtMted>{usuario.day}</PtMted><Point>.</Point><PtMted>{usuario.time}</PtMted><Point>.</Point><PtMted>{usuario.site}</PtMted>
                   </div>
-              </Item1>
+                </Item1>
 
-              <Item2 >
-                {
-                    usuario.others.map((other,index) => {
-                        return (
-                            <div key={index} className='prueba'>{other}</div>
-                        )
-                    })
-                }
+                <Item2>
+                  {usuario.others.map((other, index) => {
+                    return (
+                      <div key={index} className='prueba'>{other}</div>
+                    );
+                  })}
 
-              </Item2> 
+                </Item2>
 
-              </DisGrid>   
+              </DisGrid>
+                
+            </>
           )
          }
 )

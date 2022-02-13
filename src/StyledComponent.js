@@ -98,11 +98,13 @@ export const ImgCard = styled.img `
         left: 12px;
     }  
 `
+
 export const Container = styled.div`
     display:inline-block;
     border: 1px solid red;
     height: 150px;
 `
+
 export const StyledContainer = styled.div` 
     border: 1px solid blue;
     text-align: center;
