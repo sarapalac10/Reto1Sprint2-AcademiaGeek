@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.inputBuscar{
+width: 50% !important;
+}
+  
+.containerInput{
+align-items: end;
+right: 0;
+display: flex;
+justify-content: flex-end;
+padding-bottom: 25px;
+margin-top: 2rem;
+margin-right: 2rem;
+}
+  

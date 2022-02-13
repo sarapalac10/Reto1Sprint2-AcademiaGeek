@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Reto 1 - Job listings with filtering
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Bienvenido! 👋
 
-## Available Scripts
+**Para realizar este desafío, necesitas tener una comprensión básica de React y Styled Components**
 
-In the project directory, you can run:
+## Descripción Básica del Reto
 
-### `npm start`
+Su desafío es diseñar la maqueta de esta página de listados de trabajos con filtrado y lograr que se parezca lo más posible al diseño.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ten en cuenta que solo debes realizar la maqueta, usando react y styled components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Sus usuarios deberían poder:
 
-### `npm test`
+- Ver cómo se ajusta el tamaño de los elementos según el tamaño de la pantalla de su dispositivo
+- Implementación de componentes en React
+- Implementación de Styled Components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Dónde encontrar todo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Su tarea es construir el proyecto a los diseños dentro del directorio `/design`. Encontrará una versión móvil y otra de escritorio del diseño.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Los diseños están en formato JPG estático. El uso de JPG significará que deberá usar su mejor criterio para estilos respecto a : `font-size`, `padding` and `margin`. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Encontrará todos los activos necesarios en la carpeta `/images`. Los recursos ya están optimizados.
 
-### `npm run eject`
+También hay una guía de estilos `style-guide.md` que contiene la información que necesitará, como la paleta de colores y las fuentes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Desplegando tu proyecto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Hay muchas formas de alojar su proyecto de forma gratuita. Nuestros recomendados son:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [GitHub Pages](https://pages.github.com/)
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**¡A crear un proyecto asombroso!** 🚀
